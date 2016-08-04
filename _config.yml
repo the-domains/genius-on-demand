@@ -1,9 +1,18 @@
-layout_spectrum: 0.21815146366134286
-typography_spectrum: 0.12681926763616502
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  brandStrength: 0.5488245284650475
-  lightness: 0.13086612056940794
   saturation: 0.545526112196967
+  brandStrength: 0.5488245284650475
   rhythmicContrast: 0.7069299654103816
   brandColors:
     - '#9D2D3C'
@@ -11,5 +20,8 @@ color:
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-name: Genius on Demand
+  lightness: 0.1308661205694079
+typography_spectrum: 0.3189964
 description: Broad skilled technology consultant
+layout_spectrum: 1
+name: Genius on Demand
